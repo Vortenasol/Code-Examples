@@ -1,0 +1,55 @@
+{
+  "name": "vortena-api-examples",
+  "version": "1.0.0",
+  "description": "Code examples for VORTENA Solana Trading API integration",
+  "main": "buy.js",
+  "type": "module",
+  "scripts": {
+    "buy:js": "node buy.js",
+    "sell:js": "node sell.js",
+    "buy:ts": "tsx buy.ts",
+    "sell:ts": "tsx sell.ts",
+    "compile:ts": "tsc buy.ts sell.ts --outDir dist --target ES2022 --module ESNext --moduleResolution node",
+    "test:buy": "node buy.js",
+    "test:sell": "node sell.js",
+    "install:global": "npm install -g tsx typescript",
+    "setup": "npm install && npm run install:global"
+  },
+  "keywords": [
+    "solana",
+    "trading",
+    "api",
+    "vortena",
+    "crypto",
+    "defi",
+    "blockchain",
+    "web3"
+  ],
+  "author": "VORTENA",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vortena/api-examples"
+  },
+  "bugs": {
+    "url": "https://github.com/vortena/api-examples/issues"
+  },
+  "homepage": "https://vortena.xyz",
+  "funding": {
+    "type": "individual",
+    "url": "https://vortena.xyz"
+  }
+} 

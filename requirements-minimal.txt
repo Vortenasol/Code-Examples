@@ -1,0 +1,3 @@
+# Minimal dependencies for VORTENA API Python examples
+requests>=2.31.0
+typing-extensions>=4.7.0 
